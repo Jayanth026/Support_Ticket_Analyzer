@@ -109,7 +109,7 @@ Install with:
 ## ✨ Limitations & Future Work
 - Rule-based entity extraction could be replaced with Named Entity Recognition (NER) using spaCy or transformers for higher robustness.
 
-- Current TF-IDF model may miss contextual nuances—BERT-based models could improve prediction accuracy.
+- Current TF-IDF model may miss contextual nuances-BERT-based models could improve prediction accuracy.
 
 - Additional UI features like exportable reports and feedback could enhance real-world usability.
 
