@@ -5,15 +5,15 @@ Includes a user-friendly Gradio web app for interactive use and batch analysis.
 ## 📁 Dataset
 The dataset consists of ~1000 anonymized support tickets provided in Excel format. It contains the following columns:
 
-- ticket_id – Unique ticket identifier
+- ticket_id - Unique ticket identifier
 
-- ticket_text – Customer's description of the issue
+- ticket_text - Customer's description of the issue
 
-- issue_type – Target label for classification (e.g., Billing, Delivery)
+- issue_type - Target label for classification (e.g., Billing, Delivery)
 
-- urgency_level – Label for urgency (Low, Medium, High)
+- urgency_level - Label for urgency (Low, Medium, High)
 
-- product – Used for validating entity extraction
+- product - Used for validating entity extraction
 
 ## ✅ Tasks Performed
 1. Data Preparation
@@ -48,9 +48,9 @@ Rule-based extraction:
 
 - Product names: matched from known list
 
-- Dates: via regex patterns (e.g., “March 30”, “in 3 days”)
+- Dates: via regex patterns (e.g.,“March 30”,“in 3 days”)
 
-- Complaint keywords: predefined list (e.g., “broken”, “missing”)
+- Complaint keywords: predefined list (e.g.,“broken”,“missing”)
 
 - Returns a dictionary of extracted items
 
