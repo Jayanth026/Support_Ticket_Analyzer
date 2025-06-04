@@ -1,4 +1,4 @@
-# 🛠️6 Support Ticket Analyzer
+#🛠️ Support Ticket Analyzer
 A machine learning pipeline that classifies customer support tickets by issue type and urgency level, and extracts key entities such as product names, dates, and complaint keywords.
 Includes a user-friendly Gradio web app for interactive use and batch analysis.
 
